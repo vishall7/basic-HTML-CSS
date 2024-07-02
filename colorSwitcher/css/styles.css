@@ -1,0 +1,49 @@
+body {
+    background-color: #1d2b53;
+}
+.main {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;   
+}
+.btn {
+   height: 100px;
+   width: 100px;
+   border-radius: 20px;
+   border: 1px solid white;
+}
+.btn:hover {
+   transform: translateY(-5px);
+   cursor: pointer;
+   transition: 0.3s ease all;
+}
+.clr1 {
+   background-color: #e8c872;
+}
+.clr2 {
+   background-color: #81689d;
+}
+.clr3 {
+   background-color: #747264;
+}
+.clr4 {
+   background-color: #fc6736;
+}
+
+.heading {
+   margin: 100px auto;
+   text-align: center;
+}
+
+h1 {
+   color: #fff;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 2.3rem;
+}
+
+p {
+   color: #fff;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1.5rem; 
+}
+  
